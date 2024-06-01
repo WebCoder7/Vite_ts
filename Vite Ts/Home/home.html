@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script type="module" src="./src/countries.ts"></script>
+</head>
+
+
+
+<body>
+
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/countries.html">Countries</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="app">
+        <h1>Countries page</h1>
+        <ul class="container"></ul>
+    </div>
+
+    <h1>User List</h1>
+    <div class="container"></div>
+
+
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .user-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
+</body>
+
+
+
+
+</html>
